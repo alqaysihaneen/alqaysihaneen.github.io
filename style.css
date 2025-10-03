@@ -1,0 +1,75 @@
+body {
+    background-image: url('images/dig_sivu_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 1%;
+}
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2;
+}
+.button {
+    background-color: #0d3216;
+    color: #c2a86d;
+    padding: 12px 22px;
+    font-size: 18px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+  background-color: #d9d9d9;
+}
+.center_box {
+    width: 800px;
+    max-width: 90%;
+    min-width: 300px;
+    background-color: #0d3216;
+    padding: 20px;
+    margin: 40px auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.center_box img {
+    width: 290px;
+    height: auto;
+    margin: 20px 0;
+}
+#title{
+     font-size: 100px;
+    color: #c2a86d;
+    margin: 0;
+    padding-top: 20px;
+}
+#text {
+font-size: 25px;
+    color: #c2a86d;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 700px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
