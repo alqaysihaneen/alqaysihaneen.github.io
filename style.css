@@ -67,9 +67,12 @@ html, body {
 #text {
 font-size: 25px;
     color: #c2a86d;
-    padding: 15px 20px;
+    padding: 10px;
     border-radius: 10px;
-    width: 700px;
+    max-width: 700px;
     box-sizing: border-box;
     margin-top: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+
 }
