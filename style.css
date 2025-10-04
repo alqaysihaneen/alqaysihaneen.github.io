@@ -67,7 +67,18 @@ html, body {
     color: #c2a86d;
     margin: 0;
     padding-top: 15px;
-
+}
+#h2{
+    font-size: 25px;
+    color: #c2a86d;
+    margin: 0;
+    padding-top: 15px;
+}
+#h3{
+    font-size: 15px;
+    color: #c2a86d;
+    margin: 0;
+    padding-top: 20px;
 }
 #text {
 font-size: 25px;
@@ -94,5 +105,4 @@ font-size: 25px;
     align-items:flex-start; /* в самом блоке — выравнивание влево */
     align-self:flex-start;  /* прижать сам блок .icons2 к левому краю .center_box */
     margin-top:12px;
-  }
-  
+}
