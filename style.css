@@ -48,7 +48,7 @@ html, body {
     margin:40px auto;
     display:flex;
     flex-direction:column;
-    align-items:center; /* сохраняем центрирование остальных элементов */
+    align-items:center;
     text-align:center;
   }
 .center_box img {
@@ -86,17 +86,19 @@ font-size: 25px;
     width: 70px !important;
     height:70px !important;
     object-fit:contain;
+    position: relative;
+    top: -10px;
   }
 .icons2{
     display:flex;
-    flex-direction:column; /* столбец: каждая иконка на новой строке */
-    gap:10px;
-    align-items:flex-start; /* в самом блоке — выравнивание влево */
-    align-self:flex-start;  /* прижать сам блок .icons2 к левому краю .center_box */
-    margin-top:12px;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .text {
-font-size: 25px;
+    font-size: 25px;
     color: #c2a86d;
     padding: 10px;
     border-radius: 10px;
@@ -105,6 +107,5 @@ font-size: 25px;
     margin-top: 5px;
     text-align: justify;
     word-wrap: break-word;
-
 }
 
