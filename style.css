@@ -102,7 +102,6 @@ font-size: 25px;
   }
 .icons2{
     display:flex;
-<<<<<<< HEAD
     flex-direction:row;
     justify-content: flex-start;
     align-items:flex-start;
@@ -121,11 +120,3 @@ font-size: 25px;
     word-wrap: break-word;
 }
 
-=======
-    flex-direction:column; /* столбец: каждая иконка на новой строке */
-    gap:10px;
-    align-items:flex-start; /* в самом блоке — выравнивание влево */
-    align-self:flex-start;  /* прижать сам блок .icons2 к левому краю .center_box */
-    margin-top:12px;
-}
->>>>>>> bf00efb68477b2979d88715246020251e770671b
