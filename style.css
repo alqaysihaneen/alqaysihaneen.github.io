@@ -39,20 +39,18 @@ html, body {
 .button:hover {
   background-color: #d9d9d9;
 }
-.center_box {
+ .center_box{
     width: 800px;
     max-width: 90%;
     min-width: 300px;
-    background-color: #0d3216;
-    padding: 20px;
-    margin: 40px auto 60px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-
-}
+    background:#0d3216;
+    padding:20px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center; /* сохраняем центрирование остальных элементов */
+    text-align:center;
+  }
 .center_box img {
     width: 290px;
     height: auto;
@@ -78,8 +76,23 @@ font-size: 25px;
     border-radius: 10px;
     max-width: 700px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: justify;
     word-wrap: break-word;
 
 }
+ .icon{
+    display:block;
+    width: 70px !important;
+    height:70px !important;
+    object-fit:contain;
+  }
+.icons2{
+    display:flex;
+    flex-direction:column; /* столбец: каждая иконка на новой строке */
+    gap:10px;
+    align-items:flex-start; /* в самом блоке — выравнивание влево */
+    align-self:flex-start;  /* прижать сам блок .icons2 к левому краю .center_box */
+    margin-top:12px;
+  }
+  
